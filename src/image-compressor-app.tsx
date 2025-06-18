@@ -269,7 +269,13 @@ const ImageCompressorApp = () => {
   };
 
   return (
+      <>
+      <div className='flex flex-start p-1'>
+         <h1 className='text-2xl font-bold text-blue-600'><span>{`</>`}</span>DevCode</h1>
+      </div>
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-4">
+      <div>
+      </div>
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-8">
@@ -504,6 +510,12 @@ const ImageCompressorApp = () => {
         )}
       </div>
     </div>
+    <footer className="w-full bg-gray-900 text-gray-400 py-4 flex justify-center">
+      <p className="text-center text-sm">
+        © 2025 Developed by <span className="text-[#1ed760] font-semibold">Leomar Abad</span>
+      </p>
+    </footer>
+      </>
   );
 };
 
